@@ -1,0 +1,75 @@
+# Strange Science
+> Evidence-first archive of declassified documents, court records and FOIA releases.
+
+## Topics
+- [The Epstein Files](https://strangedocs.com/topics/epstein/): Court records, flight logs, FBI files and DOJ releases — what the paper trail actually proves, and which viral claims have no paper trail at all.
+- [9/11: The Documents](https://strangedocs.com/topics/sept11/): The Commission Report, the NIST engineering studies, the declassified 28 pages and the FBI Vault — the primary record of September 11, 2001.
+- [The JFK Files](https://strangedocs.com/topics/jfk/): Six million pages and counting: the NARA assassination-records releases, including the 80,000-page 2025 tranche.
+- [The Deep State, On the Record](https://strangedocs.com/topics/intel-abuses/): The parts of 'deep state' lore that turned out to be real — proven by official investigations, not internet threads.
+- [Rothschild & Morgan](https://strangedocs.com/topics/bankers/): Two banking dynasties: the documented history versus the conspiracy claims — checked against archives and fact-checkers.
+- [Bohemian Grove & Bilderberg](https://strangedocs.com/topics/grove/): Secretive elite gatherings are real. Secret world government is not. The documented facts, separated from the folklore.
+- [Satanic Panic & Adrenochrome](https://strangedocs.com/topics/satanic-panic/): From the McMartin trial to QAnon: the origin chain of ritual-abuse claims, and what investigators actually found.
+- [The Clinton Files](https://strangedocs.com/topics/clinton/): The FBI email investigation, the Benghazi report and the Clinton Foundation — findings versus talking points.
+- [Bush-Era Files](https://strangedocs.com/topics/bush-era/): Torture memos, WMD intelligence and the CIA interrogation report — the declassified paper trail of the 2000s.
+- [Vietnam-Era Files](https://strangedocs.com/topics/vietnam-war/): The Gulf of Tonkin deception and the Pentagon Papers — the declassified record of how America went to war in Vietnam.
+- [Mass Surveillance Files](https://strangedocs.com/topics/surveillance/): From Snowden's disclosures to the archives that hold them — the documented scale of NSA surveillance.
+- [Watergate](https://strangedocs.com/topics/watergate/): The tapes that ended a presidency — the 'smoking gun' and the cover-up, on the record.
+- [RFK & MLK Files](https://strangedocs.com/topics/rfk-mlk/): The 2025 releases under Executive Order 14176 — 230,000+ pages on the King assassination and new RFK tranches.
+
+## Files
+- [Task Force on the Declassification of Federal Secrets](https://strangedocs.com/doc/watch-task-force-on-the-declassification-of-federal-secrets/) (2026-10-08) [DOCUMENT]
+- [Epstein Files: The 2025–2026 Tranches](https://strangedocs.com/doc/epstein-tranches/) (2026-01-30) [DOCUMENT]
+- [MLK Assassination Files: 230,000+ Pages (2025)](https://strangedocs.com/doc/mlk-files-2025/) (2025-07-21) [DOCUMENT]
+- [CLAIM: A suppressed Epstein 'client list' exists](https://strangedocs.com/doc/claim-epstein-client-list/) (2025-07-07) [CLAIM: UNPROVEN]
+- [July 2025 DOJ/FBI Memo: No 'Client List'](https://strangedocs.com/doc/epstein-memo-2025/) (2025-07-07) [DOCUMENT]
+- [RFK Assassination Files: 2025 Releases](https://strangedocs.com/doc/rfk-files-2025/) (2025-06-01) [DOCUMENT]
+- [Kennedy Library Archives - Kennedy Family Collection Now Digitized](https://strangedocs.com/doc/watch-kennedy-library-archives-kennedy-family-collection-now-digit/) (2025-05-29) [DOCUMENT]
+- [RFK Files, UAP Records, and More](https://strangedocs.com/doc/watch-rfk-files-uap-records-and-more/) (2025-04-01) [DOCUMENT]
+- [EO 14176: 80,000+ Pages Released (2025)](https://strangedocs.com/doc/jfk-2025-release/) (2025-03-18) [DOCUMENT]
+- [FBI Vault & DOJ Epstein Disclosures](https://strangedocs.com/doc/epstein-vault-doj/) (2024-01-01) [DOCUMENT]
+- [NARA JFK Releases (2023)](https://strangedocs.com/doc/jfk-2023-release/) (2023-01-01) [DOCUMENT]
+- [Ghislaine Maxwell Trial & Conviction](https://strangedocs.com/doc/maxwell-trial/) (2021-12-29) [DOCUMENT]
+- [FBI Vault: 'The Finders' File (324 pp.)](https://strangedocs.com/doc/finders-file/) (2019-11-01) [DOCUMENT]
+- [2019 SDNY Indictment (19 Cr. 490)](https://strangedocs.com/doc/epstein-indictment/) (2019-07-08) [DOCUMENT]
+- [The Declassified '28 Pages' on Saudi Links](https://strangedocs.com/doc/28-pages/) (2016-07-15) [DOCUMENT]
+- [FBI Clinton Email Investigation ('Midyear Exam')](https://strangedocs.com/doc/clinton-emails/) (2016-07-05) [DOCUMENT]
+- [House Benghazi Committee Report (2016)](https://strangedocs.com/doc/benghazi-report/) (2016-06-28) [DOCUMENT]
+- [The Flight Logs (Court Exhibits)](https://strangedocs.com/doc/epstein-flight-logs/) (2015-12-10) [DOCUMENT]
+- [Senate Report: CIA Detention & Interrogation (2014)](https://strangedocs.com/doc/cia-interrogation-report/) (2014-12-09) [DOCUMENT]
+- [Snowden Disclosures: The Public Archives](https://strangedocs.com/doc/snowden-archives/) (2014-04-05) [DOCUMENT]
+- [CLAIM: Snowden was a CIA plant running coded ops](https://strangedocs.com/doc/claim-snowden-cia-plant/) (2013-06-05) [CLAIM: UNPROVEN]
+- [CLAIM: A 'stand down' order was issued at Benghazi](https://strangedocs.com/doc/claim-benghazi-standdown/) (2012-09-11) [CLAIM: DISPUTED]
+- [The Pentagon Papers: NARA Full Release (2011)](https://strangedocs.com/doc/pentagon-papers/) (2011-06-13) [DOCUMENT]
+- [The 2008 Non-Prosecution Agreement](https://strangedocs.com/doc/epstein-npa/) (2007-09-24) [DOCUMENT]
+- [NSA 2005 Release: The Gulf of Tonkin Deception](https://strangedocs.com/doc/tonkin-nsa/) (2005-12-01) [DOCUMENT]
+- [NIST World Trade Center Reports (NCSTAR 1 & 1A)](https://strangedocs.com/doc/nist-wtc-reports/) (2005-09-01) [DOCUMENT]
+- [The 9/11 Commission Report](https://strangedocs.com/doc/911-commission-report/) (2004-07-22) [DOCUMENT]
+- [Senate Report: Prewar Iraq WMD Intelligence (2004)](https://strangedocs.com/doc/senate-wmd-report/) (2004-07-09) [DOCUMENT]
+- [The OLC 'Torture Memos' (2002)](https://strangedocs.com/doc/torture-memos/) (2002-08-01) [DOCUMENT]
+- [CLAIM: Controlled demolition of the Twin Towers / WTC 7](https://strangedocs.com/doc/claim-demolition/) (2001-09-11) [CLAIM: DISPUTED]
+- [CLAIM: 9/11 insider trading proves foreknowledge](https://strangedocs.com/doc/claim-insider-trading/) (2001-09-11) [CLAIM: DISPUTED]
+- [FBI Vault: 9/11 Collections](https://strangedocs.com/doc/fbi-vault-911/) (2001-01-01) [DOCUMENT]
+- [Tuskegee Syphilis Experiment: The Records](https://strangedocs.com/doc/tuskegee-records/) (1997-05-16) [DOCUMENT]
+- [Clinton Foundation: Facts vs Claims](https://strangedocs.com/doc/clinton-foundation/) (1997-01-01) [DOCUMENT]
+- [FBI 1992: Lanning's 'Investigator's Guide to Ritual Child Abuse'](https://strangedocs.com/doc/lanning-report/) (1992-01-01) [DOCUMENT]
+- [CLAIM: Franklin was an elite satanic abuse ring reaching Washington](https://strangedocs.com/doc/claim-franklin-ring/) (1990-07-23) [CLAIM: UNPROVEN]
+- [Franklin Credit Union Case: Court Records vs. Claims](https://strangedocs.com/doc/franklin-case/) (1990-07-23) [DOCUMENT]
+- [CLAIM: Organized satanic cults abused children en masse in the 1980s](https://strangedocs.com/doc/claim-satanic-cult/) (1990-01-18) [CLAIM: DISPUTED]
+- [The McMartin Preschool Trial (1983–1990)](https://strangedocs.com/doc/mcmartin-trial/) (1990-01-18) [DOCUMENT]
+- [Iran-Contra: Tower Commission & Walsh Report](https://strangedocs.com/doc/iran-contra/) (1987-02-26) [DOCUMENT]
+- [CLAIM: The Finders were a CIA child-trafficking front](https://strangedocs.com/doc/claim-finders-cia/) (1987-02-01) [CLAIM: UNPROVEN]
+- [CLAIM: A CIA program literally named 'Operation Mockingbird' ran the U.S. press](https://strangedocs.com/doc/claim-mockingbird-name/) (1979-01-01) [CLAIM: UNPROVEN]
+- [MKUltra: The CIA's Declassified Files](https://strangedocs.com/doc/mkultra-docs/) (1977-08-03) [DOCUMENT]
+- [Church Committee Final Report (1976)](https://strangedocs.com/doc/church-committee/) (1976-04-29) [DOCUMENT]
+- [What the Church Committee Found on CIA & the Media](https://strangedocs.com/doc/mockingbird-record/) (1976-04-26) [DOCUMENT]
+- [The 'Smoking Gun' Tape (June 23, 1972)](https://strangedocs.com/doc/watergate-tapes/) (1974-08-05) [DOCUMENT]
+- [Bohemian Grove: What Is Documented](https://strangedocs.com/doc/bohemian-grove/) (1971-05-13) [DOCUMENT]
+- [Adrenochrome: From Fiction to QAnon](https://strangedocs.com/doc/adrenochrome-origins/) (1971-01-01) [DOCUMENT]
+- [CLAIM: A second gunman on the grassy knoll](https://strangedocs.com/doc/claim-grassy-knoll/) (1963-11-22) [CLAIM: DISPUTED]
+- [Eisenhower's Farewell Address (1961)](https://strangedocs.com/doc/eisenhower-farewell/) (1961-01-17) [DOCUMENT]
+- [COINTELPRO: The FBI's Own Files](https://strangedocs.com/doc/cointelpro/) (1956-08-28) [DOCUMENT]
+- [Bilderberg Meetings: What Is Documented](https://strangedocs.com/doc/bilderberg/) (1954-05-01) [DOCUMENT]
+- [CLAIM: J.P. Morgan created the Federal Reserve](https://strangedocs.com/doc/claim-morgan-fed/) (1913-12-23) [CLAIM: DISPUTED]
+- [J.P. Morgan: The Documented History](https://strangedocs.com/doc/jp-morgan-history/) (1913-03-31) [DOCUMENT]
+- [CLAIM: Rothschilds own all the world's central banks](https://strangedocs.com/doc/claim-rothschild-banks/) (1846-01-01) [CLAIM: DISPUTED]
+- [Rothschild Family: The Documented History](https://strangedocs.com/doc/rothschild-history/) (1810-01-01) [DOCUMENT]
