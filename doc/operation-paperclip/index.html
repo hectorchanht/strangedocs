@@ -1,0 +1,139 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Operation Paperclip: America's Secret Recruitment of Nazi Scientists · Strange Docs</title>
+<meta name="description" content="Evidence-first archive of declassified documents, court records and FOIA releases.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>:root{
+  --bg:#08080f;
+  --panel:#101019;
+  --panel2:#151524;
+  --ink:#f5f3ff;
+  --dim:#a09abf;
+  --faint:#6b6584;
+  --violet:#a78bfa;
+  --violet-deep:#7c3aed;
+  --cyan:#22d3ee;
+  --green:#4ade80;
+  --red:#fb7185;
+  --yellow:#facc15;
+  --line:rgba(167,139,250,.14);
+  --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Inter,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg)}
+body{
+  background:var(--bg);
+  background-image:radial-gradient(ellipse 90% 55% at 50% -12%, rgba(139,92,246,.13), transparent);
+  color:var(--ink);font-family:var(--sans);line-height:1.65;font-size:17px;
+  -webkit-font-smoothing:antialiased;min-height:100vh;
+}
+a{color:var(--violet);text-decoration:none}
+a:hover{color:#c4b5fd}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+
+/* header */
+header.site{padding:20px 0;border-bottom:1px solid var(--line)}
+.brand{font-weight:800;font-size:19px;letter-spacing:.14em;display:flex;align-items:center}
+.brand .logo{height:32px;width:32px;margin-right:12px;flex:none}
+.brand .amber{color:var(--violet)}
+.tagline{font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;color:var(--faint);margin-top:6px}
+nav.main{margin-top:14px;display:flex;gap:26px;font-size:13px;font-weight:700;letter-spacing:.1em}
+nav.main a{color:var(--dim);padding:6px 2px;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
+nav.main a:hover{color:var(--ink)}
+nav.main a.on{color:var(--violet);border-bottom-color:var(--violet)}
+
+/* hero */
+.hero{padding:66px 0 46px}
+.pill{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.18em;color:var(--violet);background:rgba(139,92,246,.1);border:1px solid rgba(139,92,246,.32);padding:8px 18px;border-radius:999px;margin-bottom:26px}
+.pill .dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 10px var(--cyan)}
+h1{font-size:clamp(36px,6.5vw,62px);line-height:1.06;font-weight:800;letter-spacing:-.025em}
+h1 .grad{background:linear-gradient(115deg,var(--violet) 10%,var(--cyan) 90%);-webkit-background-clip:text;background-clip:text;color:transparent}
+h1 .soft{color:var(--dim);font-weight:700}
+.lede{font-size:19px;color:var(--dim);max-width:640px;margin-top:18px}
+.stats{display:flex;gap:12px;margin-top:36px}
+.stats div{flex:1;background:linear-gradient(180deg,var(--panel),transparent);border:1px solid var(--line);border-radius:18px;padding:18px 22px}
+.stats b{font-size:30px;font-weight:800;letter-spacing:-.02em;display:block}
+.stats b em{font-style:normal;background:linear-gradient(115deg,var(--violet),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+.stats span{font-size:10.5px;letter-spacing:.2em;color:var(--faint);font-family:var(--mono)}
+
+/* sections + cards */
+h2.sec{font-family:var(--mono);font-size:12px;font-weight:700;letter-spacing:.26em;color:var(--faint);margin:54px 0 20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.card{display:block;background:linear-gradient(180deg,var(--panel) 0%,rgba(16,16,25,0) 130%);border:1px solid var(--line);border-radius:20px;padding:26px;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.card:hover{transform:translateY(-3px);border-color:rgba(139,92,246,.5);box-shadow:0 16px 44px -14px rgba(139,92,246,.4)}
+.card .code{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.18em;color:var(--violet)}
+.card h3{font-size:21px;margin:12px 0 8px;font-weight:750;letter-spacing:-.015em;color:var(--ink)}
+.card p{font-size:15px;color:var(--dim)}
+.card .n{font-family:var(--mono);font-size:12px;color:var(--cyan);margin-top:16px;display:block;letter-spacing:.12em}
+
+/* badges — soft pills */
+.badge{display:inline-block;font-family:var(--mono);font-size:10.5px;font-weight:700;letter-spacing:.14em;padding:6px 14px;border-radius:999px;margin-bottom:12px;border:1px solid transparent}
+.st-verified{color:var(--green);background:rgba(74,222,128,.1);border-color:rgba(74,222,128,.32)}
+.st-disputed{color:var(--red);background:rgba(251,113,133,.1);border-color:rgba(251,113,133,.32)}
+.st-unproven{color:var(--yellow);background:rgba(250,204,21,.1);border-color:rgba(250,204,21,.32)}
+
+/* file list */
+.fileitem{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px 24px;margin-bottom:12px;transition:border-color .15s,transform .15s}
+.fileitem:hover{border-color:rgba(139,92,246,.45);transform:translateX(3px)}
+.fileitem h3{font-size:19px;font-weight:700;margin:10px 0;letter-spacing:-.01em}
+.fileitem h3 a{color:var(--ink)}
+.fileitem h3 a:hover{color:var(--violet)}
+.fileitem .meta{font-family:var(--mono);font-size:11.5px;color:var(--faint);letter-spacing:.08em}
+.fileitem .meta a{color:var(--dim)}
+.fileitem p{font-size:15px;color:var(--dim);margin-top:8px}
+
+/* record page */
+.sources{margin-top:32px;border-top:1px solid var(--line);padding-top:22px}
+.sources li{list-style:none;margin:10px 0;font-family:var(--mono);font-size:14px}
+.sources li::before{content:"\2726  ";color:var(--violet)}
+.key{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:28px;margin-top:20px}
+.key p{font-size:15px;color:var(--dim);margin:10px 0}
+footer.site{border-top:1px solid var(--line);margin-top:72px;padding:32px 0 48px;font-family:var(--mono);font-size:11.5px;color:var(--faint);letter-spacing:.1em}
+footer.site .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.redact{background:var(--dim);color:transparent;user-select:none;padding:0 8px;border-radius:6px}
+.searchbox{width:100%;background:var(--panel);border:1px solid var(--line);border-radius:16px;color:var(--ink);font-family:var(--sans);font-size:17px;padding:16px 22px;margin-top:24px;outline:none;transition:border-color .15s,box-shadow .15s}
+.searchbox:focus{border-color:var(--violet);box-shadow:0 0 0 4px rgba(139,92,246,.15)}
+.searchbox::placeholder{color:var(--faint)}
+#results .fileitem{cursor:pointer}
+.card p,.card h3,.fileitem p,.fileitem h3,.sources li,.lede{overflow-wrap:break-word;word-break:break-word}
+@media(max-width:640px){
+  .stats{flex-direction:column}
+  nav.main{gap:16px;flex-wrap:wrap}
+  .hero{padding:46px 0 34px}
+  .card{padding:22px}
+}
+</style></head><body>
+
+<header class="site"><div class="wrap">
+<div class="brand"><img class="logo" src="/logo.svg" alt="Strange Docs logo">STRANGE <span class="amber">DOCS</span></div>
+<div class="tagline">EVIDENCE-FIRST ARCHIVE · DOCUMENTS, NOT RUMORS</div>
+<nav class="main"><a href="/" class="">INDEX</a><a href="/topics/" class="on">TOPICS</a><a href="/search/" class="">SEARCH</a><a href="/about/" class="">ABOUT</a></nav>
+</div></header>
+
+<main class="wrap"><div class="hero" style="padding:36px 0 10px">
+<span class="badge st-verified">DOCUMENT</span>
+<div class="meta" style="font-family:var(--mono);font-size:12px;color:var(--dim);letter-spacing:1px;margin:10px 0">2026-10-08 · <a href="/topics/intel-abuses/">THE DEEP STATE, ON THE RECORD</a> · FILE OPERATION-PAPERCLIP</div>
+<h1 style="font-size:clamp(26px,5vw,42px)">Operation Paperclip: America's Secret Recruitment of Nazi Scientists</h1></div>
+<div style="border:1px solid rgba(139,92,246,.35);border-radius:16px;padding:18px 20px;margin:20px 0;max-width:700px;background:rgba(139,92,246,.07)">
+<div style="font-family:var(--mono);font-size:11px;letter-spacing:2px;color:var(--violet);margin-bottom:8px">TL;DR</div>
+<p style="margin:0;font-size:16px">Between 1945 and 1959, the U.S. brought more than 1,600 German scientists, engineers and technicians stateside under Operation Paperclip, run by the Joint Intelligence Objectives Agency. The most famous recruit, V-2 engineer Wernher von Braun — a Nazi Party and SS member — became chief architect of the Saturn V. Dossiers were systematically whitewashed to get recruits past Truman's own 1946 exclusion order.</p></div>
+<p style="font-size:19px;max-width:700px">Operation Paperclip was the U.S. program that relocated German scientific talent after WWII. The Joint Intelligence Objectives Agency (JIOA), established in 1945 as a subcommittee of the Joint Intelligence Committee under the Joint Chiefs of Staff, ran the program; field work was largely carried out by U.S. Army Counterintelligence Corps agents in coordination with the OSS, the CIA's precursor. The target list: aerospace, rocketry, chemical warfare and other fields of strategic interest as the Cold War took shape.</p>
+<p style="font-size:19px;max-width:700px">The prize recruit was Wernher von Braun, technical director at Peenemünde and lead engineer of the V-2 rocket. A documented member of the Nazi Party who rose to SS-Sturmbannführer, von Braun later became director of NASA's Marshall Space Flight Center and chief architect of the Saturn V rocket that carried the Apollo missions.</p>
+<p style="font-size:19px;max-width:700px">The whitewashing is a matter of record. President Truman's directive of September 3, 1946 authorized bringing 1,000 scientists but explicitly excluded anyone found 'to have been a member of the Nazi Party, and more than a nominal participant in its activities, or an active supporter of Nazi militarism.' Investigative journalist Linda Hunt's 1985 exposé in the Bulletin of the Atomic Scientists showed the exclusion was routinely circumvented: she examined 130+ Paperclip dossiers and found every one altered to remove security-threat classifications — von Braun's own September 1947 report calling him 'a potential security threat' was rewritten by February 1948 to read 'no derogatory information.'</p>
+<p style="font-size:19px;max-width:700px">The full paper trail kept surfacing for decades — through Hunt's book Secret Agenda (1991), Christopher Simpson's Blowback (1988), and the document releases forced by the Nazi War Crimes Disclosure Act of 1998. The program delivered enormous technological gains and an enduring ethical stain: national security used as a reason to launder the records of men tied to a criminal regime.</p>
+<p style="color:var(--dim);font-size:15px;margin-top:12px">Evidence status: Confirmed by primary sources — JIOA records, Truman's September 3, 1946 directive, and NARA's Nazi War Crimes Disclosure Act releases.</p>
+
+<div style="max-width:700px;margin:18px 0"><h2 class="sec">AI DOCUMENT REVIEW</h2>
+<p style="font-size:15px;color:var(--dim);margin-bottom:8px">Generated from the primary source document. <a href="/about/">How we review</a>.</p>
+<p style="font-size:16px;white-space:pre-line">AI-assisted article, written from the weekly drafts pipeline and fact-checked claim-by-claim on 2026-10-08 before publishing. Corrections applied to the first draft:
+- JIOA was established in 1945 (not 1944), as a Joint Chiefs of Staff subcommittee — not under the Army CIC.
+- Removed five fabricated items from the first draft: a 1946 JIOA report title, a 1947 Army Chief of Staff memo and quote, a 1948 INS report and quote, a 1976 Senate report title, and a 1999 State Department statement — none exist in any published record.
+- Dossier whitewashing is cited via Linda Hunt's 1985 Bulletin of the Atomic Scientists exposé; the exclusion language is Truman's actual September 3, 1946 directive.
+- Figures kept: 1,600+ recruits (1945–1959); von Braun's Party/SS membership, V-2 role and Saturn V role.</p></div>
+<div class="sources"><h2 class="sec" style="margin-top:0">PRIMARY SOURCES</h2><ul><li><a href="https://www.archives.gov/iwg" rel="noopener" target="_blank">NARA: Nazi War Crimes Interagency Working Group</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Operation_Paperclip" rel="noopener" target="_blank">Operation Paperclip — sourced overview</a></li></ul></div></main>
+
+<footer class="site"><div class="wrap"><span>STRANGE DOCS · 2026-10-08</span><span>EVERY FILE CITES ITS PRIMARY SOURCE</span></div></footer>
+
+</body></html>
