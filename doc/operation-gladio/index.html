@@ -1,0 +1,144 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Operation Gladio: NATO's Secret Stay-Behind Armies · Strange Docs</title>
+<meta name="description" content="Evidence-first archive of declassified documents, court records and FOIA releases.">
+<link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml">
+<style>:root{
+  --bg:#08080f;
+  --panel:#101019;
+  --panel2:#151524;
+  --ink:#f5f3ff;
+  --dim:#a09abf;
+  --faint:#6b6584;
+  --violet:#a78bfa;
+  --violet-deep:#7c3aed;
+  --cyan:#22d3ee;
+  --green:#4ade80;
+  --red:#fb7185;
+  --yellow:#facc15;
+  --line:rgba(167,139,250,.14);
+  --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Inter,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg)}
+body{
+  background:var(--bg);
+  background-image:radial-gradient(ellipse 90% 55% at 50% -12%, rgba(139,92,246,.13), transparent);
+  color:var(--ink);font-family:var(--sans);line-height:1.65;font-size:17px;
+  -webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:clip;
+}
+a{color:var(--violet);text-decoration:none}
+a:hover{color:#c4b5fd}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+
+/* header */
+header.site{padding:20px 0;border-bottom:1px solid var(--line)}
+.brand{font-weight:800;font-size:19px;letter-spacing:.14em;display:flex;align-items:center}
+.brand .logo{height:32px;width:32px;margin-right:12px;flex:none}
+.brand .amber{color:var(--violet)}
+.tagline{font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;color:var(--faint);margin-top:6px}
+nav.main{margin-top:14px;display:flex;gap:26px;font-size:13px;font-weight:700;letter-spacing:.1em}
+nav.main a{color:var(--dim);padding:6px 2px;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
+nav.main a:hover{color:var(--ink)}
+nav.main a.on{color:var(--violet);border-bottom-color:var(--violet)}
+
+/* hero */
+.hero{padding:66px 0 46px}
+.pill{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.18em;color:var(--violet);background:rgba(139,92,246,.1);border:1px solid rgba(139,92,246,.32);padding:8px 18px;border-radius:999px;margin-bottom:26px}
+.pill .dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 10px var(--cyan)}
+h1{font-size:clamp(36px,6.5vw,62px);line-height:1.06;font-weight:800;letter-spacing:-.025em}
+h1 .grad{background:linear-gradient(115deg,var(--violet) 10%,var(--cyan) 90%);-webkit-background-clip:text;background-clip:text;color:transparent}
+h1 .soft{color:var(--dim);font-weight:700}
+.lede{font-size:19px;color:var(--dim);max-width:640px;margin-top:18px}
+.stats{display:flex;gap:12px;margin-top:36px}
+.stats div{flex:1;min-width:0;box-sizing:border-box;background:linear-gradient(180deg,var(--panel),transparent);border:1px solid var(--line);border-radius:18px;padding:18px 22px}
+.stats b{font-size:30px;font-weight:800;letter-spacing:-.02em;display:block}
+.stats b em{font-style:normal;background:linear-gradient(115deg,var(--violet),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+.stats span{font-size:10.5px;letter-spacing:.2em;color:var(--faint);font-family:var(--mono)}
+
+/* sections + cards */
+h2.sec{font-family:var(--mono);font-size:12px;font-weight:700;letter-spacing:.26em;color:var(--faint);margin:54px 0 20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:16px}
+.card{display:block;box-sizing:border-box;background:linear-gradient(180deg,var(--panel) 0%,rgba(16,16,25,0) 130%);border:1px solid var(--line);border-radius:20px;padding:26px;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.card:hover{transform:translateY(-3px);border-color:rgba(139,92,246,.5);box-shadow:0 16px 44px -14px rgba(139,92,246,.4)}
+.card .code{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.18em;color:var(--violet)}
+.card h3{font-size:21px;margin:12px 0 8px;font-weight:750;letter-spacing:-.015em;color:var(--ink)}
+.card p{font-size:15px;color:var(--dim)}
+.card .n{font-family:var(--mono);font-size:12px;color:var(--cyan);margin-top:16px;display:block;letter-spacing:.12em}
+
+/* badges — soft pills */
+.badge{display:inline-block;font-family:var(--mono);font-size:10.5px;font-weight:700;letter-spacing:.14em;padding:6px 14px;border-radius:999px;margin-bottom:12px;border:1px solid transparent}
+.st-verified{color:var(--green);background:rgba(74,222,128,.1);border-color:rgba(74,222,128,.32)}
+.st-disputed{color:var(--red);background:rgba(251,113,133,.1);border-color:rgba(251,113,133,.32)}
+.st-unproven{color:var(--yellow);background:rgba(250,204,21,.1);border-color:rgba(250,204,21,.32)}
+
+/* file list */
+.fileitem{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px 24px;margin-bottom:12px;transition:border-color .15s,transform .15s}
+.fileitem:hover{border-color:rgba(139,92,246,.45);transform:translateX(3px)}
+.fileitem h3{font-size:19px;font-weight:700;margin:10px 0;letter-spacing:-.01em}
+.fileitem h3 a{color:var(--ink)}
+.fileitem h3 a:hover{color:var(--violet)}
+.fileitem .meta{font-family:var(--mono);font-size:11.5px;color:var(--faint);letter-spacing:.08em}
+.fileitem .meta a{color:var(--dim)}
+.fileitem p{font-size:15px;color:var(--dim);margin-top:8px}
+
+/* record page */
+.sources{margin-top:32px;border-top:1px solid var(--line);padding-top:22px}
+.sources li{list-style:none;margin:10px 0;font-family:var(--mono);font-size:14px}
+.sources li::before{content:"\2726  ";color:var(--violet)}
+.key{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:28px;margin-top:20px}
+.key p{font-size:15px;color:var(--dim);margin:10px 0}
+footer.site{border-top:1px solid var(--line);margin-top:72px;padding:32px 0 48px;font-family:var(--mono);font-size:11.5px;color:var(--faint);letter-spacing:.1em}
+footer.site .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.redact{background:var(--dim);color:transparent;user-select:none;padding:0 8px;border-radius:6px}
+.searchbox{width:100%;background:var(--panel);border:1px solid var(--line);border-radius:16px;color:var(--ink);font-family:var(--sans);font-size:17px;padding:16px 22px;margin-top:24px;outline:none;transition:border-color .15s,box-shadow .15s}
+.searchbox:focus{border-color:var(--violet);box-shadow:0 0 0 4px rgba(139,92,246,.15)}
+.searchbox::placeholder{color:var(--faint)}
+#results .fileitem{cursor:pointer}
+.card p,.card h3,.fileitem p,.fileitem h3,.sources li,.lede{overflow-wrap:break-word;word-break:break-word}
+@media(max-width:640px){
+  .stats{flex-direction:column}
+  .stats div{width:100%}
+  nav.main{gap:16px;flex-wrap:wrap}
+  .hero{padding:46px 0 34px}
+  .card{padding:22px}
+}
+</style></head><body>
+
+<header class="site"><div class="wrap">
+<div class="brand"><img class="logo" src="/logo.svg?v=3" alt="Strange Docs logo">STRANGE <span class="amber">DOCS</span></div>
+<div class="tagline">EVIDENCE-FIRST ARCHIVE · DOCUMENTS, NOT RUMORS</div>
+<nav class="main"><a href="/" class="">INDEX</a><a href="/topics/" class="on">TOPICS</a><a href="/search/" class="">SEARCH</a><a href="/about/" class="">ABOUT</a></nav>
+</div></header>
+
+<main class="wrap"><div class="hero" style="padding:36px 0 10px">
+<span class="badge st-verified">DOCUMENT</span>
+<div class="meta" style="font-family:var(--mono);font-size:12px;color:var(--dim);letter-spacing:1px;margin:10px 0">2026-10-27 · <a href="/topics/intel-abuses/">THE DEEP STATE, ON THE RECORD</a> · FILE OPERATION-GLADIO</div>
+<h1 style="font-size:clamp(26px,5vw,42px)">Operation Gladio: NATO's Secret Stay-Behind Armies</h1></div>
+<div style="border:1px solid rgba(139,92,246,.35);border-radius:16px;padding:18px 20px;margin:20px 0;max-width:700px;background:rgba(139,92,246,.07)">
+<div style="font-family:var(--mono);font-size:11px;letter-spacing:2px;color:var(--violet);margin-bottom:8px">TL;DR</div>
+<p style="margin:0;font-size:16px">Gladio was the Italian branch of NATO's secret stay-behind networks — clandestine armies prepared during the Cold War to resist a Warsaw Pact invasion. Italy's network was set up in the 1950s under Defense Minister Paolo Taviani and run by the military secret service; Prime Minister Giulio Andreotti confirmed its existence on 24 October 1990, and Belgium acknowledged its own network the following month. Only Italy, Belgium and Switzerland held parliamentary investigations.</p></div>
+<p style="font-size:19px;max-width:700px">Operation Gladio was the codename for the clandestine "stay-behind" operations prepared across Western Europe during the Cold War — networks organized by the Western Union and subsequently by NATO and the CIA, in collaboration with European intelligence services, to conduct sabotage, intelligence gathering and guerrilla warfare behind enemy lines if the Warsaw Pact invaded. Stay-behind preparations were made in many NATO member countries, and in some neutral ones; "Gladio" was specifically the codename of the Italian branch, though it became the informal name for all of them.</p>
+<p style="font-size:19px;max-width:700px">The Italian network was set up in the 1950s under the supervision of Defense Minister Paolo Taviani, who held the post from 1953 to 1958, and was run by the Italian military secret service — SIFAR, and its successor SID. Far-right terrorist Vincenzo Vinciguerra had already revealed the network's existence during his 1984 trial, but the official confirmation came on 24 October 1990, when Prime Minister Giulio Andreotti told the Chamber of Deputies of a "structure of information, response and safeguard," with arms caches and reserve officers. Andreotti handed the Commissione Stragi — the parliamentary commission on terrorism and massacres, which worked from 1988 to 2001 — a list of 622 civilians he said had been part of Gladio, and stated that 127 weapons caches had been dismantled.</p>
+<p style="font-size:19px;max-width:700px">Belgium followed within weeks. In November 1990, Defense Minister Guy Coëme acknowledged the existence of a Belgian stay-behind army. Belgium's structures were SDRA8, the military stay-behind organization, and STC/Mob, its civilian counterpart. Government inquiries followed, and in 1991 Belgium created a permanent parliamentary committee to oversee the intelligence services. Switzerland investigated its own stay-behind organization, P-26. In the end, only Italy, Belgium and Switzerland carried out parliamentary investigations, while the administration of President George H. W. Bush refused to comment.</p>
+<p style="font-size:19px;max-width:700px">The hardest questions concerned the networks' links to the far right. Italian judge Guido Salvini, who worked with the Commissione Stragi, found that several far-right terrorist organizations had been the "trench troops" of a secret army linked to the CIA. The Commissione Stragi's own record requires a careful distinction, however: it documents individual links between stay-behind personnel and far-right militants, which is not the same as institutionally proven collaboration between Gladio as an organization and the terrorist groups. One boundary is clear: the 1978 kidnapping and murder of former Prime Minister Aldo Moro was carried out by the far-left Red Brigades (16 March – 9 May 1978), not by Ordine Nuovo or the Nuclei Armati Rivoluzionari — folding it into the Gladio story reverses the attribution.</p>
+<p style="font-size:19px;max-width:700px">On 22 November 1990, the European Parliament passed a resolution sharply condemning NATO and the United States for having manipulated European politics through the stay-behind armies. In January 2006, the U.S. State Department confirmed the existence of the NATO stay-behind efforts in general and of Italy's "Gladio" unit in particular, while dismissing claims that the United States had ordered, supported or authorized terrorism by stay-behind units. Many national records remain classified, and the full scope of the networks remains incompletely documented — which is precisely why this archive separates what the documents prove from what is claimed in Gladio's name.</p>
+<p style="color:var(--dim);font-size:15px;margin-top:12px">Evidence status: Confirmed by primary sources — Andreotti's 24 October 1990 statement to the Chamber of Deputies, the Commissione Stragi record, the Belgian government acknowledgment of November 1990, and the European Parliament resolution of 22 November 1990 (OJ C 324/201).</p>
+
+<div style="max-width:700px;margin:18px 0"><h2 class="sec">AI DOCUMENT REVIEW</h2>
+<p style="font-size:15px;color:var(--dim);margin-bottom:8px">Generated from the primary source document. <a href="/about/">How we review</a>.</p>
+<p style="font-size:16px;white-space:pre-line">AI-assisted article, written from the weekly drafts pipeline and fact-checked claim-by-claim on 2026-10-27. The first draft failed the check and was rewritten from verified facts before publishing. Corrections applied:
+- Removed two invented organizations: the Italian network was codenamed "Gladio" and run by the military secret service (SIFAR/SID) — there was no "Clandestine Resistance Organization (ORC)"; Belgium's structures were SDRA8 and STC/Mob — there was no "RRC," no inquiry report of the cited name, and no 1984 reorganization directive.
+- Removed an invented document title: the Italian inquiry body was the Commissione Stragi (1988–2001); the "1990 Parliamentary Inquiry Report" cited in the draft does not exist.
+- Establishment corrected: set up in the 1950s under Defense Minister Paolo Taviani, not in the late 1940s.
+- Aldo Moro was kidnapped and murdered by the far-left Red Brigades in 1978, not by Ordine Nuovo or the NAR; claims of Gladio collaboration with far-right groups are now stated only as far as the Commissione Stragi record supports — documented individual links, not institutionally proven collaboration.
+- The European Parliament resolution was passed on 22 November 1990, not in 1997; the cited "Resolution 1997/2003" does not exist.</p></div>
+<div class="sources"><h2 class="sec" style="margin-top:0">PRIMARY SOURCES</h2><ul><li><a href="https://en.wikipedia.org/wiki/Operation_Gladio" rel="noopener" target="_blank">Operation Gladio — sourced overview</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Kidnapping_and_murder_of_Aldo_Moro" rel="noopener" target="_blank">Kidnapping and murder of Aldo Moro — sourced overview</a></li>
+<li><a href="https://www.britannica.com/biography/Aldo-Moro" rel="noopener" target="_blank">Aldo Moro — Encyclopaedia Britannica</a></li></ul></div></main>
+
+
+<footer class="site"><div class="wrap"><span>STRANGE DOCS · 2026-10-27</span><span>EVERY FILE CITES ITS PRIMARY SOURCE</span></div></footer>
+
+</body></html>
