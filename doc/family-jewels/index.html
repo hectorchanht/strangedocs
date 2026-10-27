@@ -1,0 +1,142 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Family Jewels: The CIA's Own Confession File · Strange Docs</title>
+<meta name="description" content="Evidence-first archive of declassified documents, court records and FOIA releases.">
+<link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml">
+<style>:root{
+  --bg:#08080f;
+  --panel:#101019;
+  --panel2:#151524;
+  --ink:#f5f3ff;
+  --dim:#a09abf;
+  --faint:#6b6584;
+  --violet:#a78bfa;
+  --violet-deep:#7c3aed;
+  --cyan:#22d3ee;
+  --green:#4ade80;
+  --red:#fb7185;
+  --yellow:#facc15;
+  --line:rgba(167,139,250,.14);
+  --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Inter,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg)}
+body{
+  background:var(--bg);
+  background-image:radial-gradient(ellipse 90% 55% at 50% -12%, rgba(139,92,246,.13), transparent);
+  color:var(--ink);font-family:var(--sans);line-height:1.65;font-size:17px;
+  -webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:clip;
+}
+a{color:var(--violet);text-decoration:none}
+a:hover{color:#c4b5fd}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+
+/* header */
+header.site{padding:20px 0;border-bottom:1px solid var(--line)}
+.brand{font-weight:800;font-size:19px;letter-spacing:.14em;display:flex;align-items:center}
+.brand .logo{height:32px;width:32px;margin-right:12px;flex:none}
+.brand .amber{color:var(--violet)}
+.tagline{font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;color:var(--faint);margin-top:6px}
+nav.main{margin-top:14px;display:flex;gap:26px;font-size:13px;font-weight:700;letter-spacing:.1em}
+nav.main a{color:var(--dim);padding:6px 2px;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
+nav.main a:hover{color:var(--ink)}
+nav.main a.on{color:var(--violet);border-bottom-color:var(--violet)}
+
+/* hero */
+.hero{padding:66px 0 46px}
+.pill{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.18em;color:var(--violet);background:rgba(139,92,246,.1);border:1px solid rgba(139,92,246,.32);padding:8px 18px;border-radius:999px;margin-bottom:26px}
+.pill .dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 10px var(--cyan)}
+h1{font-size:clamp(36px,6.5vw,62px);line-height:1.06;font-weight:800;letter-spacing:-.025em}
+h1 .grad{background:linear-gradient(115deg,var(--violet) 10%,var(--cyan) 90%);-webkit-background-clip:text;background-clip:text;color:transparent}
+h1 .soft{color:var(--dim);font-weight:700}
+.lede{font-size:19px;color:var(--dim);max-width:640px;margin-top:18px}
+.stats{display:flex;gap:12px;margin-top:36px}
+.stats div{flex:1;min-width:0;box-sizing:border-box;background:linear-gradient(180deg,var(--panel),transparent);border:1px solid var(--line);border-radius:18px;padding:18px 22px}
+.stats b{font-size:30px;font-weight:800;letter-spacing:-.02em;display:block}
+.stats b em{font-style:normal;background:linear-gradient(115deg,var(--violet),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+.stats span{font-size:10.5px;letter-spacing:.2em;color:var(--faint);font-family:var(--mono)}
+
+/* sections + cards */
+h2.sec{font-family:var(--mono);font-size:12px;font-weight:700;letter-spacing:.26em;color:var(--faint);margin:54px 0 20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:16px}
+.card{display:block;box-sizing:border-box;background:linear-gradient(180deg,var(--panel) 0%,rgba(16,16,25,0) 130%);border:1px solid var(--line);border-radius:20px;padding:26px;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.card:hover{transform:translateY(-3px);border-color:rgba(139,92,246,.5);box-shadow:0 16px 44px -14px rgba(139,92,246,.4)}
+.card .code{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.18em;color:var(--violet)}
+.card h3{font-size:21px;margin:12px 0 8px;font-weight:750;letter-spacing:-.015em;color:var(--ink)}
+.card p{font-size:15px;color:var(--dim)}
+.card .n{font-family:var(--mono);font-size:12px;color:var(--cyan);margin-top:16px;display:block;letter-spacing:.12em}
+
+/* badges — soft pills */
+.badge{display:inline-block;font-family:var(--mono);font-size:10.5px;font-weight:700;letter-spacing:.14em;padding:6px 14px;border-radius:999px;margin-bottom:12px;border:1px solid transparent}
+.st-verified{color:var(--green);background:rgba(74,222,128,.1);border-color:rgba(74,222,128,.32)}
+.st-disputed{color:var(--red);background:rgba(251,113,133,.1);border-color:rgba(251,113,133,.32)}
+.st-unproven{color:var(--yellow);background:rgba(250,204,21,.1);border-color:rgba(250,204,21,.32)}
+
+/* file list */
+.fileitem{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px 24px;margin-bottom:12px;transition:border-color .15s,transform .15s}
+.fileitem:hover{border-color:rgba(139,92,246,.45);transform:translateX(3px)}
+.fileitem h3{font-size:19px;font-weight:700;margin:10px 0;letter-spacing:-.01em}
+.fileitem h3 a{color:var(--ink)}
+.fileitem h3 a:hover{color:var(--violet)}
+.fileitem .meta{font-family:var(--mono);font-size:11.5px;color:var(--faint);letter-spacing:.08em}
+.fileitem .meta a{color:var(--dim)}
+.fileitem p{font-size:15px;color:var(--dim);margin-top:8px}
+
+/* record page */
+.sources{margin-top:32px;border-top:1px solid var(--line);padding-top:22px}
+.sources li{list-style:none;margin:10px 0;font-family:var(--mono);font-size:14px}
+.sources li::before{content:"\2726  ";color:var(--violet)}
+.key{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:28px;margin-top:20px}
+.key p{font-size:15px;color:var(--dim);margin:10px 0}
+footer.site{border-top:1px solid var(--line);margin-top:72px;padding:32px 0 48px;font-family:var(--mono);font-size:11.5px;color:var(--faint);letter-spacing:.1em}
+footer.site .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.redact{background:var(--dim);color:transparent;user-select:none;padding:0 8px;border-radius:6px}
+.searchbox{width:100%;background:var(--panel);border:1px solid var(--line);border-radius:16px;color:var(--ink);font-family:var(--sans);font-size:17px;padding:16px 22px;margin-top:24px;outline:none;transition:border-color .15s,box-shadow .15s}
+.searchbox:focus{border-color:var(--violet);box-shadow:0 0 0 4px rgba(139,92,246,.15)}
+.searchbox::placeholder{color:var(--faint)}
+#results .fileitem{cursor:pointer}
+.card p,.card h3,.fileitem p,.fileitem h3,.sources li,.lede{overflow-wrap:break-word;word-break:break-word}
+@media(max-width:640px){
+  .stats{flex-direction:column}
+  .stats div{width:100%}
+  nav.main{gap:16px;flex-wrap:wrap}
+  .hero{padding:46px 0 34px}
+  .card{padding:22px}
+}
+</style></head><body>
+
+<header class="site"><div class="wrap">
+<div class="brand"><img class="logo" src="/logo.svg?v=3" alt="Strange Docs logo">STRANGE <span class="amber">DOCS</span></div>
+<div class="tagline">EVIDENCE-FIRST ARCHIVE · DOCUMENTS, NOT RUMORS</div>
+<nav class="main"><a href="/" class="">INDEX</a><a href="/topics/" class="on">TOPICS</a><a href="/search/" class="">SEARCH</a><a href="/about/" class="">ABOUT</a></nav>
+</div></header>
+
+<main class="wrap"><div class="hero" style="padding:36px 0 10px">
+<span class="badge st-verified">DOCUMENT</span>
+<div class="meta" style="font-family:var(--mono);font-size:12px;color:var(--dim);letter-spacing:1px;margin:10px 0">2026-10-27 · <a href="/topics/intel-abuses/">THE DEEP STATE, ON THE RECORD</a> · FILE FAMILY-JEWELS</div>
+<h1 style="font-size:clamp(26px,5vw,42px)">The Family Jewels: The CIA's Own Confession File</h1></div>
+<div style="border:1px solid rgba(139,92,246,.35);border-radius:16px;padding:18px 20px;margin:20px 0;max-width:700px;background:rgba(139,92,246,.07)">
+<div style="font-family:var(--mono);font-size:11px;letter-spacing:2px;color:var(--violet);margin-bottom:8px">TL;DR</div>
+<p style="margin:0;font-size:16px">In 1973, Director of Central Intelligence James R. Schlesinger ordered the CIA to compile its own catalogue of charter violations — assassination plots, mail opening, domestic surveillance, break-ins. The 693-page "Family Jewels" file passed to his successor William Colby, surfaced publicly through Seymour Hersh's December 1974 reporting, and was finally released by the agency itself in June 2007.</p></div>
+<p style="font-size:19px;max-width:700px">In 1973, amid press accounts that the CIA had aided the Watergate burglars — E. Howard Hunt and James McCord, both agency veterans — Director of Central Intelligence James R. Schlesinger ordered every senior officer to report any agency activity, past or present, that might have fallen outside the CIA's charter. The directive, signed on 7 May 1973, produced a 693-page loose-leaf book of memos. Passed to Schlesinger's successor William Colby later that year, the compilation became known as the "Family Jewels"; Colby dubbed the reports the "skeletons in the CIA's closet."</p>
+<p style="font-size:19px;max-width:700px">Briefing the Justice Department on 31 December 1974, Colby listed 18 issues that presented legal questions. Among them: assassination plots against Fidel Castro of Cuba, Patrice Lumumba of the Congo, Rafael Trujillo of the Dominican Republic and Chilean army commander René Schneider — all of them unsuccessful — including plots run through Mafia figures, in which Sam Giancana and Santo Trafficante Jr. were supplied with six CIA poison pills meant for Castro's food.</p>
+<p style="font-size:19px;max-width:700px">The file documented domestic operations the CIA's charter forbade: wiretaps on columnists Robert Allen and Paul Scott in 1963; physical surveillance of journalists including Jack Anderson; mail opening under SRPOINTER/HTLINGUAL, which intercepted mail to and from the Soviet Union from 1953 to 1973 and China from 1969 to 1972; funding of behavior-modification research on unwitting American citizens, including non-consensual human experiments linked to MKULTRA; surveillance of dissident groups between 1967 and 1971, with files amassed on more than 9,900 U.S. citizens connected to the antiwar movement; and break-ins at the home of a former CIA employee and the office of a former defector. The era's other famous mail program, SHAMROCK, was the NSA's — not the CIA's.</p>
+<p style="font-size:19px;max-width:700px">Congressional investigators had access to the Jewels in the 1970s, but the public learned of the file through journalism. On 22 December 1974, Seymour Hersh reported on the front page of the New York Times that the CIA had conducted a "massive, illegal domestic intelligence operation" against the antiwar movement and other dissident groups. The revelations fed the Church Committee investigation, whose 1976 Final Report of the Select Committee to Study Governmental Operations with Respect to Intelligence Activities documented the abuses, and the reform era that followed: President Ford created the Intelligence Oversight Board in 1976, and Congress passed the Intelligence Oversight Act in 1980.</p>
+<p style="font-size:19px;max-width:700px">The file itself stayed secret for three more decades, despite a Freedom of Information Act request by the National Security Archive that waited fifteen years. On 25 June 2007, CIA Director Michael Hayden released the documents on the agency's website, with some redactions — a number of pages withheld in their entirety. The confession file the agency compiled for itself in 1973 is now readable by anyone.</p>
+<p style="color:var(--dim);font-size:15px;margin-top:12px">Evidence status: Confirmed by primary sources — the documents themselves, released by the CIA on 25 June 2007, and DCI William Colby's 31 December 1974 briefing to the Justice Department.</p>
+
+<div style="max-width:700px;margin:18px 0"><h2 class="sec">AI DOCUMENT REVIEW</h2>
+<p style="font-size:15px;color:var(--dim);margin-bottom:8px">Generated from the primary source document. <a href="/about/">How we review</a>.</p>
+<p style="font-size:16px;white-space:pre-line">AI-assisted article, written from the weekly drafts pipeline and fact-checked claim-by-claim on 2026-10-27. The first draft failed the check and was rewritten from verified facts before publishing. Corrections applied:
+- Commissioned by DCI James R. Schlesinger (directive of 7 May 1973), not Richard Helms — Helms had left office in February 1973; the trigger was press reporting on CIA support to the Watergate burglars, not a White House request.
+- The file is 693 pages, not a reported 3,000; and it was released — the CIA posted the documents on 25 June 2007, with some redactions.
+- Removed two misattributions: SHAMROCK was the NSA's program (the Jewels' mail program was SRPOINTER/HTLINGUAL), and the 1971 break-in at Daniel Ellsberg's psychiatrist's office was carried out by the White House Plumbers, not the CIA.
+- The file became public via Seymour Hersh's front-page New York Times article of 22 December 1974, not Ervin Committee testimony; a fabricated Church Committee section title and quotation were removed.
+- Oversight dates corrected: the Intelligence Oversight Board was created in 1976 (Executive Order 11905); the Intelligence Oversight Act is from 1980, not 1978.</p></div>
+<div class="sources"><h2 class="sec" style="margin-top:0">PRIMARY SOURCES</h2><ul><li><a href="https://en.wikipedia.org/wiki/Family_Jewels_(Central_Intelligence_Agency)" rel="noopener" target="_blank">Family Jewels — sourced overview</a></li></ul></div></main>
+
+
+<footer class="site"><div class="wrap"><span>STRANGE DOCS · 2026-10-27</span><span>EVERY FILE CITES ITS PRIMARY SOURCE</span></div></footer>
+
+</body></html>
