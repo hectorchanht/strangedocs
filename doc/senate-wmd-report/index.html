@@ -9,7 +9,7 @@
   --panel2:#151524;
   --ink:#f5f3ff;
   --dim:#a09abf;
-  --faint:#6b6584;
+  --faint:#837d9f;
   --violet:#a78bfa;
   --violet-deep:#7c3aed;
   --cyan:#22d3ee;
@@ -21,7 +21,9 @@
   --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html{background:var(--bg)}
+html{background:var(--bg);color-scheme:dark}
+::selection{background:rgba(139,92,246,.4);color:var(--ink)}
+:focus-visible{outline:2px solid var(--violet);outline-offset:3px}
 body{
   background:var(--bg);
   background-image:radial-gradient(ellipse 90% 55% at 50% -12%, rgba(139,92,246,.13), transparent);
@@ -29,6 +31,8 @@ body{
   -webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:clip;
 }
 a{color:var(--violet);text-decoration:none}
+h1,h2,h3{text-wrap:balance}
+p{text-wrap:pretty}
 a:hover{color:#c4b5fd}
 .wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 
@@ -37,7 +41,7 @@ header.site{padding:20px 0;border-bottom:1px solid var(--line)}
 .brand{font-weight:800;font-size:19px;letter-spacing:.14em;display:flex;align-items:center}
 .brand .logo{height:32px;width:32px;margin-right:12px;flex:none}
 .brand .amber{color:var(--violet)}
-.tagline{font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;color:var(--faint);margin-top:6px}
+.tagline{font-family:var(--mono);font-size:11px;letter-spacing:.22em;color:var(--faint);margin-top:6px}
 nav.main{margin-top:14px;display:flex;gap:26px;font-size:13px;font-weight:700;letter-spacing:.1em}
 nav.main a{color:var(--dim);padding:6px 2px;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
 nav.main a:hover{color:var(--ink)}
@@ -45,17 +49,15 @@ nav.main a.on{color:var(--violet);border-bottom-color:var(--violet)}
 
 /* hero */
 .hero{padding:66px 0 46px}
-.pill{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.18em;color:var(--violet);background:rgba(139,92,246,.1);border:1px solid rgba(139,92,246,.32);padding:8px 18px;border-radius:999px;margin-bottom:26px}
-.pill .dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 10px var(--cyan)}
 h1{font-size:clamp(36px,6.5vw,62px);line-height:1.06;font-weight:800;letter-spacing:-.025em}
-h1 .grad{background:linear-gradient(115deg,var(--violet) 10%,var(--cyan) 90%);-webkit-background-clip:text;background-clip:text;color:transparent}
+h1 .grad{color:var(--violet)}
 h1 .soft{color:var(--dim);font-weight:700}
 .lede{font-size:19px;color:var(--dim);max-width:640px;margin-top:18px}
 .stats{display:flex;gap:12px;margin-top:36px}
 .stats div{flex:1;min-width:0;box-sizing:border-box;background:linear-gradient(180deg,var(--panel),transparent);border:1px solid var(--line);border-radius:18px;padding:18px 22px}
 .stats b{font-size:30px;font-weight:800;letter-spacing:-.02em;display:block}
-.stats b em{font-style:normal;background:linear-gradient(115deg,var(--violet),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
-.stats span{font-size:10.5px;letter-spacing:.2em;color:var(--faint);font-family:var(--mono)}
+.stats b em{font-style:normal;color:var(--violet)}
+.stats span{font-size:11px;letter-spacing:.2em;color:var(--faint);font-family:var(--mono)}
 
 /* sections + cards */
 h2.sec{font-family:var(--mono);font-size:12px;font-weight:700;letter-spacing:.26em;color:var(--faint);margin:54px 0 20px}
@@ -68,10 +70,11 @@ h2.sec{font-family:var(--mono);font-size:12px;font-weight:700;letter-spacing:.26
 .card .n{font-family:var(--mono);font-size:12px;color:var(--cyan);margin-top:16px;display:block;letter-spacing:.12em}
 
 /* badges — soft pills */
-.badge{display:inline-block;font-family:var(--mono);font-size:10.5px;font-weight:700;letter-spacing:.14em;padding:6px 14px;border-radius:999px;margin-bottom:12px;border:1px solid transparent}
+.badge{display:inline-block;font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.14em;padding:6px 14px;border-radius:999px;margin-bottom:12px;border:1px solid transparent}
 .st-verified{color:var(--green);background:rgba(74,222,128,.1);border-color:rgba(74,222,128,.32)}
 .st-disputed{color:var(--red);background:rgba(251,113,133,.1);border-color:rgba(251,113,133,.32)}
 .st-unproven{color:var(--yellow);background:rgba(250,204,21,.1);border-color:rgba(250,204,21,.32)}
+.st-pending{color:var(--dim);background:rgba(160,154,191,.08);border:1px dashed rgba(160,154,191,.45)}
 
 /* file list */
 .fileitem{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px 24px;margin-bottom:12px;transition:border-color .15s,transform .15s}
@@ -92,10 +95,26 @@ h2.sec{font-family:var(--mono);font-size:12px;font-weight:700;letter-spacing:.26
 footer.site{border-top:1px solid var(--line);margin-top:72px;padding:32px 0 48px;font-family:var(--mono);font-size:11.5px;color:var(--faint);letter-spacing:.1em}
 footer.site .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
 .redact{background:var(--dim);color:transparent;user-select:none;padding:0 8px;border-radius:6px}
-.searchbox{width:100%;background:var(--panel);border:1px solid var(--line);border-radius:16px;color:var(--ink);font-family:var(--sans);font-size:17px;padding:16px 22px;margin-top:24px;outline:none;transition:border-color .15s,box-shadow .15s}
+.searchbox{width:100%;-webkit-appearance:none;appearance:none;background:var(--panel);border:1px solid var(--line);border-radius:16px;color:var(--ink);font-family:var(--sans);font-size:17px;padding:16px 22px;margin-top:24px;outline:none;transition:border-color .15s,box-shadow .15s}
 .searchbox:focus{border-color:var(--violet);box-shadow:0 0 0 4px rgba(139,92,246,.15)}
 .searchbox::placeholder{color:var(--faint)}
 #results .fileitem{cursor:pointer}
+/* file + topic pages */
+.hero.file-hero{padding:36px 0 10px}
+.file-meta{font-family:var(--mono);font-size:12px;color:var(--dim);letter-spacing:1px;margin:10px 0}
+h1.file-title{font-size:clamp(26px,5vw,42px)}
+h1.topic-title{font-size:clamp(28px,5vw,44px)}
+.topic-code{font-family:var(--mono);font-size:11px;letter-spacing:2px;color:var(--dim)}
+.tldr{border:1px solid rgba(139,92,246,.35);border-radius:16px;padding:18px 20px;margin:20px 0;max-width:700px;background:rgba(139,92,246,.07)}
+.tldr-label{font-family:var(--mono);font-size:11px;letter-spacing:2px;color:var(--violet);margin-bottom:8px}
+.tldr-text{margin:0;font-size:16px}
+.summary{font-size:19px;max-width:700px}
+.status-note{color:var(--dim);font-size:15px;margin-top:12px}
+.review{max-width:700px;margin:18px 0}
+.review-note{font-size:15px;color:var(--dim);margin-bottom:8px}
+.review-body{font-size:16px;white-space:pre-line}
+h2.sec.flush{margin-top:0}
+.dim{color:var(--dim)}
 .card p,.card h3,.fileitem p,.fileitem h3,.sources li,.lede{overflow-wrap:break-word;word-break:break-word}
 @media(max-width:640px){
   .stats{flex-direction:column}
@@ -104,24 +123,27 @@ footer.site .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:
   .hero{padding:46px 0 34px}
   .card{padding:22px}
 }
+@media(prefers-reduced-motion:reduce){
+  .card:hover,.fileitem:hover{transform:none}
+}
 </style></head><body>
 
 <header class="site"><div class="wrap">
-<div class="brand"><img class="logo" src="/logo.svg?v=3" alt="Strange Docs logo">STRANGE <span class="amber">DOCS</span></div>
+<div class="brand"><img class="logo" src="/logo.svg?v=3" alt="">STRANGE <span class="amber">DOCS</span></div>
 <div class="tagline">EVIDENCE-FIRST ARCHIVE · DOCUMENTS, NOT RUMORS</div>
 <nav class="main"><a href="/" class="">INDEX</a><a href="/topics/" class="on">TOPICS</a><a href="/search/" class="">SEARCH</a><a href="/about/" class="">ABOUT</a></nav>
 </div></header>
 
-<main class="wrap"><div class="hero" style="padding:36px 0 10px">
+<main class="wrap"><div class="hero file-hero">
 <span class="badge st-verified">DOCUMENT</span>
-<div class="meta" style="font-family:var(--mono);font-size:12px;color:var(--dim);letter-spacing:1px;margin:10px 0">2004-07-09 · <a href="/topics/bush-era/">BUSH-ERA FILES</a> · FILE SENATE-WMD-REPORT</div>
-<h1 style="font-size:clamp(26px,5vw,42px)">Senate Report: Prewar Iraq WMD Intelligence (2004)</h1></div>
+<div class="meta file-meta">2004-07-09 · <a href="/topics/bush-era/">BUSH-ERA FILES</a> · FILE SENATE-WMD-REPORT</div>
+<h1 class="file-title">Senate Report: Prewar Iraq WMD Intelligence (2004)</h1></div>
 
-<p style="font-size:19px;max-width:700px">Unanimous bipartisan S. Rept. 108-301: most key judgments in the Oct 2002 NIE on Iraq were overstated or unsupported; &#x27;group think&#x27; presumed active WMD programs; no CIA sources inside Iraq on WMD after 1998. Did NOT find analysts changed judgments from political pressure. Phase II (2008): administration public statements (Iraq–al-Qaeda partnership, WMD claims) were NOT substantiated by available intelligence.</p>
-<p style="color:var(--dim);font-size:15px;margin-top:12px">Evidence status: Confirmed by primary sources — court records, government reports, declassified documents.</p>
+<p class="summary">Unanimous bipartisan S. Rept. 108-301: most key judgments in the Oct 2002 NIE on Iraq were overstated or unsupported; &#x27;group think&#x27; presumed active WMD programs; no CIA sources inside Iraq on WMD after 1998. Did NOT find analysts changed judgments from political pressure. Phase II (2008): administration public statements (Iraq–al-Qaeda partnership, WMD claims) were NOT substantiated by available intelligence.</p>
+<p class="status-note">Evidence status: Confirmed by primary sources — court records, government reports, declassified documents.</p>
 
 
-<div class="sources"><h2 class="sec" style="margin-top:0">PRIMARY SOURCES</h2><ul><li><a href="https://www.congress.gov/committee-report/108th-congress/senate-report/301/1" rel="noopener" target="_blank">S. Rept. 108-301 (Congress.gov)</a></li></ul></div></main>
+<div class="sources"><h2 class="sec flush">PRIMARY SOURCES</h2><ul><li><a href="https://www.congress.gov/committee-report/108th-congress/senate-report/301/1" rel="noopener" target="_blank">S. Rept. 108-301 (Congress.gov)</a></li></ul></div></main>
 
 <footer class="site"><div class="wrap"><span>STRANGE DOCS · 2026-10-08</span><span>EVERY FILE CITES ITS PRIMARY SOURCE</span></div></footer>
 
